@@ -96,7 +96,7 @@ def handle_keypress(key, cc, write_text, keyboard, splash, display ):
         update_screen(splash, macro_names[1], display)
 
     #Eagle Airstrike    
-    if key[11].value:
+    if key[10].value:
         keyboard.press(Keycode.CONTROL)
         time.sleep(0.05)
 
@@ -125,7 +125,7 @@ def handle_keypress(key, cc, write_text, keyboard, splash, display ):
         update_screen(splash, macro_names[11], display)
     
     #Orbital Precision Strike
-    if key[12].value:
+    if key[11].value:
         keyboard.press(Keycode.CONTROL)
         time.sleep(0.05)
 
@@ -149,7 +149,7 @@ def handle_keypress(key, cc, write_text, keyboard, splash, display ):
         update_screen(splash, macro_names[12], display)
     
     #Granade Launcher
-    if key[13].value:
+    if key[12].value:
         keyboard.press(Keycode.CONTROL)
         time.sleep(0.05)
 
@@ -183,7 +183,7 @@ def handle_keypress(key, cc, write_text, keyboard, splash, display ):
         update_screen(splash, macro_names[13], display)
 
     #AX/LAS-5 "Guard Dog" Rover
-    if key[14].value:
+    if key[13].value:
         keyboard.press(Keycode.CONTROL)
         time.sleep(0.05)
 
