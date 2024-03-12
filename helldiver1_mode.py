@@ -129,14 +129,14 @@ def handle_keypress(key, cc, write_text, keyboard, splash, display ):
         keyboard.press(Keycode.CONTROL)
         time.sleep(0.05)
 
-        keyboard.press(Keycode.LEFT_ARROW)
+        keyboard.press(Keycode.RIGHT_ARROW)
         time.sleep(0.05)
-        keyboard.release(Keycode.LEFT_ARROW)
+        keyboard.release(Keycode.RIGHT_ARROW)
         time.sleep(0.05)
 
-        keyboard.press(Keycode.LEFT_ARROW)
+        keyboard.press(Keycode.RIGHT_ARROW)
         time.sleep(0.05)
-        keyboard.release(Keycode.LEFT_ARROW)
+        keyboard.release(Keycode.RIGHT_ARROW)
         time.sleep(0.05)
 
         keyboard.press(Keycode.UP_ARROW)
